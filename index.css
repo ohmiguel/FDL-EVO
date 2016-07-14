@@ -1,0 +1,242 @@
+/*body{
+background-image: url(img/header2.jpg);
+    opacity: 0.9;
+    background-repeat: no-repeat;
+    
+    background-attachment: fixed;
+
+}
+*/
+.block_1{
+  margin-top: 110px;
+
+}
+
+
+.bg-default {
+	padding: 100px 0;
+}
+
+.mid-text {
+	margin: auto;
+	float: none;
+}
+
+.bg-primary {
+	padding: 50px 0;
+	background-color: black;
+}
+.bg-primary p{
+  color :red;
+}
+
+
+.parallax-window {
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+/*.bg-mid {
+	background-image: url(img/header4.jpg);
+  background-size: cover;
+  background-position: 25% 30%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 450px;
+}*/
+
+/*.bg-last {
+  background-image: url(img/footer.jpg);
+  background-size: cover;
+  background-position: 25% 30%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}*/
+
+/*.bg-white {
+  width: 100%;
+  height: 10px;
+}*/
+
+h1 {
+	padding: 0 0 10px 0;
+  font-size: 60px;
+font-family: 'philosopher';
+
+}
+
+.bg-primary h2 {
+	padding: 30px 0 30px 0;
+  font-weight: 700;
+  color : red;
+}
+
+h2 {
+  padding: 0 0 30px 0;
+  color: red;
+  font-family: 'Great Vibes';
+}
+
+h3 {
+  font-size: 70px;
+  width: 550px;
+font-family: 'Great Vibes';
+}
+
+.well-h3 {
+  background-color: #cc90ce;
+  padding: 15px 0;
+  text-align: center;
+}
+
+p {
+	font-family: "philosopher";
+	font-size: 15px;
+  color: #333333;
+  font-style: italic;
+}
+
+.bg-default h1 {
+  padding-top: 55px;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 500px;
+}
+
+.pic {
+  width: 250px;
+  height: 200px;
+}
+
+.pad {
+  padding: 0 50px;
+}
+
+.bloc-img {
+  width: 545px;
+  height: 445px;
+  padding-right: 15px;
+  padding-top: 15px;
+  background-color: #cc90ce;
+  margin-top: -55px;
+}
+
+.col-md-6 {
+  padding: 0;
+}
+
+.effect {
+  width: 250px;
+  height: 200px;
+  background: #e97f8e;
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.effect:hover img {
+  opacity: 0.3;
+  transition: all 0.50s;
+}
+
+.effect:hover .overlay {
+  opacity: 1;
+}
+
+.overlay {
+  width: 250px;
+  height: 200px;
+  display: block;
+  position: absolute;
+  text-align: center;
+  overflow: hidden;
+  opacity: 0;
+  padding-top: 75px;
+  font-size: 45px;
+}
+
+.carous-text {
+  margin: auto;
+  text-align: center;
+  color: #e8b3e9;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.carous-text-name {
+  margin: auto;
+  text-align: center;
+  color: #e8b3e9;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.carous-inner2 {
+  height: 200px;
+}
+
+/*ajout hover*/
+
+.img-container {
+  position: relative;
+}
+
+.img-left-background,
+.img-center-background,
+.img-right-background {
+  position: absolute;
+  z-index: -1;
+  min-height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: 2s;
+
+}
+
+.img-left-background {
+  background-image: url(img/traiteur-1.jpeg);
+}
+
+.img-center-background {
+  background-image: url(img/accueil4.jpg);
+}
+
+.img-right-background {
+  background-image: url(img/img-1.jpeg);
+}
+
+.img-foreground {
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.entre {
+    width: 80%;
+    height: 70px;
+    background-color: rgba(0,0,0,0.65);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-family: 'monospace';
+}
+
+/*
+.centrage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}*/
