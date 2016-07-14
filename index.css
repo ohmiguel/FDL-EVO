@@ -22,12 +22,18 @@ background-image: url(img/header2.jpg);
 	float: none;
 }
 
-.bg-primary {
+/*arrière plan Nos services*/
+.bg-primary {  
 	padding: 50px 0;
-	background-color: black;
+	
+  background-image: url(img/carous.jpg); ;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+ background-color: #A47CFE; 
 }
 .bg-primary p{
-  color :red;
+  color :black;
 }
 
 
@@ -80,7 +86,7 @@ font-family: 'philosopher';
 
 h2 {
   padding: 0 0 30px 0;
-  color: red;
+  color: fuchsia;
   font-family: 'Great Vibes';
 }
 
@@ -91,7 +97,12 @@ font-family: 'Great Vibes';
 }
 
 .well-h3 {
-  background-color: #cc90ce;
+  font-family: "philosopher";
+  color : black;
+  text-shadow: 2px 2px 8px yellow;
+  background-image: url(img/contact-bg.jpg);
+  background-attachment: fixed;
+  /*background-color: #cc90ce;*/
   padding: 15px 0;
   text-align: center;
 }
@@ -205,15 +216,15 @@ p {
 }
 
 .img-left-background {
-  background-image: url(img/traiteur-1.jpeg);
+  background-image: url(img/header-location.jpg);
 }
 
 .img-center-background {
-  background-image: url(img/accueil4.jpg);
+  background-image: url(img/img-1.jpeg);
 }
 
 .img-right-background {
-  background-image: url(img/img-1.jpeg);
+  background-image: url(img/contact-bg.jpg);
 }
 
 .img-foreground {
