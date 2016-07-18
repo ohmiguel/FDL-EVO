@@ -75,13 +75,12 @@ h3 {/*Nos Services*/
 font-family: 'Great Vibes', cursive;
 color : black;
 background-color: #A47CFE;
+  font-style: italic;
+  text-shadow: 2px 2px 4px white;
 }
 
 .well-h3 {/*titre "Nos Services"*/
-  font-family: "Roboto";
-  font-style: italic;
-  /*color : grey;*/
-  text-shadow: 2px 2px 4px white;
+ 
   /*background-image: url(img/contact-bg.jpg);*/
   background-attachment: fixed;
   background-color: #A47CFE;
@@ -99,7 +98,7 @@ p {/*paragraphes sous 3-photos et sou services*/
   background-color: #A47CFE;
 }
 
-.bg-default h1 {
+.bg-default h1 {/*?*/
   color : red;
   padding-top: 55px;
 }
